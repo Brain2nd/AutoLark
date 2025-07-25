@@ -44,7 +44,7 @@ from .ADD_RECORDS_FROM_CSV import ADD_RECORDS_FROM_CSV
 from .CONVERSION_FIELDS import CONVERSION_FIELDS_HUMAN_TO_MACHINE, CONVERSION_FIELDS_MACHINE_TO_HUMAN
 
 
-class FeishuBitableAPI:
+class AutoLark:
     def __init__(self):
         pass
 

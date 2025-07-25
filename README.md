@@ -28,9 +28,9 @@ AutoLark 是一个专门用于飞书（Lark/Feishu）多维表格API操作的Pyt
 ## 📁 项目结构
 
 ```
-FeishuBitableAPI/
+AutoLark/
 ├── __init__.py                     # 包初始化文件
-├── FeishuBitableAPI.py            # 主API类
+├── AutoLark.py                    # 主API类
 ├── setup.py                       # 安装配置
 ├── test.py                        # 示例测试文件
 │
@@ -83,10 +83,10 @@ pip install git+https://github.com/Brain2nd/AutoLark.git
 ### 基本使用
 
 ```python
-from FeishuBitableAPI import FeishuBitableAPI
+from AutoLark import AutoLark
 
 # 创建API实例
-api = FeishuBitableAPI()
+api = AutoLark()
 
 # 从URL获取表格信息
 url = "https://your-feishu-url"

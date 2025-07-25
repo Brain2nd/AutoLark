@@ -1,7 +1,7 @@
-from FeishuBitableAPI import FeishuBitableAPI
+from AutoLark import AutoLark
 
-# 创建 FeishuBitableAPI 类的实例
-api = FeishuBitableAPI()
+# 创建 AutoLark 类的实例
+api = AutoLark()
 
 # 调用类的方法进行测试
 app_token = api.GET_APPTOKEN_FROM_URL("https://ruijie.feishu.cn/base/VwGhbo65BaYLaOsSz1nciWc5ncb?table=tblzDsYuQkXfoy9e&view=vewAgGXuqf")
